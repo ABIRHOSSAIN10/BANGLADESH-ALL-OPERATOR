@@ -79,7 +79,7 @@ if Abirhossain=="1" or Abirhossain=="01":
 elif Abirhossain=="2" or Abirhossain=="02":
 	os.system("python2 07DEGIT.py")
 elif Abirhossain=="3" or Abirhossain=="03":
-		os.system("python2 08DEGIT.py")
+	os.system("python2 08DEGIT.py")
 elif Abirhossain=="4" or Abirhossain=="04":
 	os.system("python2 09DEGIT.py")
 elif Abirhossain=="5" or Abirhossain=="05":
