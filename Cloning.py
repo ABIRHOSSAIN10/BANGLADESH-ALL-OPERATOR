@@ -65,23 +65,26 @@ if __name__=="__main__":
 os.system("clear")
 print(logo)
 print
-print"\033[1;96m[1] 07 Digit cloning"
-print"\033[1;96m[2] 08 Digit cloning"
-print"\033[1;96m[3] 09 Digit cloning"
-print"\033[1;96m[4] 10 Digit cloning"
-print"\033[1;96m[5] 11 Digit cloning"
+print"\033[1;96m[1] 06 Digit cloning"
+print"\033[1;96m[2] 07 Digit cloning"
+print"\033[1;96m[3] 08 Digit cloning"
+print"\033[1;96m[4] 09 Digit cloning"
+print"\033[1;96m[5] 10 Digit cloning"
+print"\033[1;96m[6] 11 Digit cloning"
 print"\033[1;96m[0] Back"
 Abirhossain=str(raw_input("\033[1;91m\n[★] Select Your Option : \033[1;93m"))
 
 if Abirhossain=="1" or Abirhossain=="01":
-	os.system("python2 07DEGIT.py")
+	os.system("python2 06DEGIT.py")
 elif Abirhossain=="2" or Abirhossain=="02":
-	os.system("python2 08DEGIT.py")
+	os.system("python2 07DEGIT.py")
 elif Abirhossain=="3" or Abirhossain=="03":
-		os.system("python2 9DEGIT.py")
+		os.system("python2 08DEGIT.py")
 elif Abirhossain=="4" or Abirhossain=="04":
-	os.system("python2 10DEGIT.py")
+	os.system("python2 9DEGIT.py")
 elif Abirhossain=="5" or Abirhossain=="05":
+	os.system("python2 10DEGIT.py")
+elif Abirhossain=="6" or Abirhossain=="06":
 	os.system("python2 11DEGIT.py")
 elif Abirhossain=="0" or Abirhossain=="00":
 	exit()
